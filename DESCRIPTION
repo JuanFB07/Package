@@ -1,11 +1,13 @@
 Package: Prueba1
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tidyverse Classwork
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Juan Diego Fonseca 81723
+Maintainer: The package maintainer <juand.fonsecab@ecci.edu.co>
+Description: This package allows you to interact with the data. Explore within the different exercises in order to select or visualize each one of them. 
+
+ Free to use
+ 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
