@@ -1,5 +1,4 @@
 ej1 <- function(x)
-
   {
 
   library(nycflights13)

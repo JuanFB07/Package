@@ -1,0 +1,64 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `Package'}}
+\par\bigskip{\large \today}
+\end{center}
+\inputencoding{utf8}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {Package: Tidyverse Classwork}}}{}
+\begin{description}
+\raggedright{}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{Tidyverse Classwork}
+\item[Version]\AsIs{0.1.0}
+\item[Author]\AsIs{Juan Diego Fonseca 81723}
+\item[Maintainer]\AsIs{The package maintainer }\email{juand.fonsecab@ecci.edu.co}\AsIs{}
+\item[Description]\AsIs{This package allows you to interact with the data Explore within the different exercises in order to select or visualize each one of them 
+Free to use}
+\item[License]\AsIs{``USE_MIT_LICENSE''}
+\item[Encoding]\AsIs{UTF-8}
+\item[LazyData]\AsIs{true}
+\item[RoxygenNote]\AsIs{7.2.3}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{Ejt}{R DATA ANALYSIS}{Ejt}
+%
+\begin{Description}
+R DATA ANALYSIS
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+Ejt(x)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{x}] is the function that will take the value of Ejt (main function).
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+The solution for the specified exercise.
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+# Retrieve the solution for exercise 3
+Ejt(3)
+
+# Retrieve the solution for exercise 6
+Ejt(6)
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}
